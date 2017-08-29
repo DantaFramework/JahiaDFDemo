@@ -1,0 +1,19 @@
+{
+  "danta-jahia-demo" : {
+    "xk_clientModelProperties": ["page"],
+    "xk_containerClasses": [
+      "xk-page",
+      "xk-component"
+    ],
+    "xk_componentCategory": [
+      "page",
+      "htmlpage",
+      "styling",
+      "component",
+      "content",
+      "global",
+      "design"
+    ],
+    "xk_clientAccessible": true
+  }
+}

@@ -1,2 +1,24 @@
 <jnt = 'http://www.jahia.org/jahia/nt/1.0'>
 <jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<dantademo = 'http://danta.tikaltechnologies.io'>
+
+
+[jmix:dantaDemo] > jmix:droppableContent mixin
+
+[dantademo:title] > d:base, jmix:dantaDemo
+ - title (string)
+
+[dantademo:header] > d:base, jmix:dantaDemo
+ - projectName (string)
+ - childrenListLink (string, picker)
+
+[dantademo:footer] > d:base, jmix:dantaDemo
+ - text (string)
+
+[dantademo:hero] > d:base, jmix:dantaDemo
+ - title (string)
+ - subtitle (string)
+ - description (string)
+ - buttonText (string)
+ - buttonLink (string)
+
