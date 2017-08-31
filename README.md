@@ -18,15 +18,15 @@ Danta - JahiaDF (Digital Factory) Project is the maven project contained source 
 
   * Clone the following repositories into the same folder (i.e. C:\workspace\danta or /User/{username}/workspace/danta) 
     then run the maven build command (refer to **Compile** section of README.md, for each repository) in the following order
+    * [JahiaDF Demo](https://github.com/DantaFramework/JahiaDFDemo)
     * [Parent](https://github.com/DantaFramework/Parent)
     * [API](https://github.com/DantaFramework/API)
     * [Core](https://github.com/DantaFramework/Core)
     * [JahiaDF](https://github.com/DantaFramework/JahiaDF)
-    * [JahiaDF Demo](https://github.com/DantaFramework/JahiaDFDemo)
 
 ### Official documentation
 
-  * Read our [official documentation](https://danta.tikaltechnologies.io/docs/aem/index.html) for more information.
+  * Read our [official documentation](https://danta.tikaltechnologies.io/docs) for more information.
 
 ## License
 
