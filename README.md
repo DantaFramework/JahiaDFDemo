@@ -10,6 +10,7 @@ Danta - JahiaDF Demo Project is the maven project contained source codes specifi
  * [Danta - API Project](https://github.com/DantaFramework/API)
  * [Danta - Core Project](https://github.com/DantaFramework/Core)
  * [Danta - JahiaDF Project](https://github.com/DantaFramework/JahiaDF)
+ * [Danta - JahiaDF Content Definition Project](https://github.com/DantaFramework/JahiaDFContentDefinition)
  * Java 8
  * Jahia 7.2 or later
 
