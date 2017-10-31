@@ -28,14 +28,33 @@
     </parent>
     <groupId>Danta</groupId>
     <artifactId>JahiaDFDemo</artifactId>
-    <name>Danta JahiaDF Demo</name>
-    <version>1.0-SNAPSHOT</version>    
+    <version>1.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
+
+    <name>Danta JahiaDF Demo</name>
     <description>This is the custom profile module (Danta JahiaDF Demo) for running on a Digital Experience Manager server.</description>
+    <url>https://github.com/DantaFramework/JahiaDFDemo</url>
+
+    <licenses>
+        <license>
+            <name>GNU AFFERO GENERAL PUBLIC LICENSE</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.html</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Tikal Technologies Core Team</name>
+            <email>support@tikaltechnologies.io</email>
+            <organization>Tikal Technologies, Inc</organization>
+            <organizationUrl>https://tikaltechnologies.io/</organizationUrl>
+        </developer>
+    </developers>
 
     <scm>
-        <connection>scm:dummy:uri</connection>
-        <developerConnection>scm:dummy:uri</developerConnection>
+        <connection>scm:git:git://github.com/DantaFramework/JahiaDFDemo.git</connection>
+        <developerConnection>scm:git:ssh://github.com/DantaFramework/JahiaDFDemo.git</developerConnection>
+        <url>https://github.com/JahiaDFDemo/Parent/tree/master</url>
     </scm>
 
     <repositories>
