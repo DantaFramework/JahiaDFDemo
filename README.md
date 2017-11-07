@@ -1,28 +1,31 @@
-# Danta - JahiaDF Project
+# Danta - JahiaDF Demo Project
 
 Danta is the agnostic multi-platform templating engine. enables developers and IT teams to use technologies they already know, expediting the creation and leveraging of reusable technical assets.
 
-Danta - JahiaDF (Digital Factory) Project is the maven project contained source codes specifically for Jahia.
+Danta - JahiaDF Demo Project is the maven project contained source codes specifically for demoing Danta capability on Jahia.
 
 ## Prerequisites
 
  * [Danta - Parent Project](https://github.com/DantaFramework/Parent)
  * [Danta - API Project](https://github.com/DantaFramework/API)
  * [Danta - Core Project](https://github.com/DantaFramework/Core)
+ * [Danta - JahiaDF Project](https://github.com/DantaFramework/JahiaDF)
+ * [Danta - JahiaDF Content Definition Project](https://github.com/DantaFramework/JahiaDFContentDefinition)
  * Java 8
- * Jahia 7.2 or later (for integration with Jahia)
+ * Jahia 7.2 or later
 
 ## Documentation
 
 ### Installation
 
   * Clone the following repositories into the same folder (i.e. C:\workspace\danta or /User/{username}/workspace/danta) 
-    then run the maven build command (refer to **Compile** section of README.md, for each repository) in the following order
-    * [JahiaDF Demo](https://github.com/DantaFramework/JahiaDFDemo)
+    then run the maven build command (refer to **Compile** section of README.md, for each repository) in the following order:
     * [Parent](https://github.com/DantaFramework/Parent)
     * [API](https://github.com/DantaFramework/API)
     * [Core](https://github.com/DantaFramework/Core)
     * [JahiaDF](https://github.com/DantaFramework/JahiaDF)
+    * [JahiaDFContentDefinition](https://github.com/DantaFramework/JahiaDFContentDefinition)
+    * [JahiaDF Demo](https://github.com/DantaFramework/JahiaDFDemo)
 
 ### Official documentation
 
@@ -42,7 +45,7 @@ Read [here](CONTRIBUTING.md) for more information.
 
 ## Deploy to Jahia
 
-Edit your Maven settings.xml (usually in ~/.m2/settings.xml) to add the following profile :
+Edit your Maven settings.xml (usually in ~/.m2/settings.xml) to add the following profile:
 
         <profile>
             <id>jahia-local</id>
