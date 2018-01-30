@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
     <modules jcr:primaryType="jnt:modules">
-        <JahiaDFDemo j:dependencies="JahiaDF JahiaDFContentDefinition default"
-                   j:installedModules="JahiaDFDemo"
-                   j:modulePriority="0"
-                   j:moduleType="templatesSet"
-                   j:title="Danta JahiaDF Demo"
-                   jcr:primaryType="jnt:module">
+        <jahia-df-demo j:dependencies="default jahia-df jahia-df-base"
+                     j:modulePriority="0"
+                     j:moduleType="templatesSet"
+                     j:title="Danta JahiaDF Demo"
+                     jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                     jcr:primaryType="jnt:module">
+                <sources jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                  jcr:primaryType="jnt:moduleVersionFolder"
+                  j:staticMountPointProviderKey="module-jahia-df-demo-1.0-SNAPSHOT">
+                    <src jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                 jcr:primaryType="jnt:folder">
+                        <main jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                     jcr:primaryType="jnt:folder">
+                            <resources jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                             jcr:primaryType="jnt:folder">
+                                <dantademo_title jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                                      jcr:primaryType="jnt:nodeTypeFolder">
+                                    <html jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                              jcr:primaryType="jnt:templateTypeFolder">
+                                        <title.d jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:viewFile"/>
+                                    </html>
+                                </dantademo_title>
+                            </resources>
+                        </main>
+                    </src>
+                </sources>
                 
                 <portlets jcr:primaryType="jnt:portletFolder"/>
                 <files jcr:primaryType="jnt:folder"/>
@@ -14,24 +34,7 @@
                 <templates jcr:primaryType="jnt:templatesFolder">
                     <files jcr:primaryType="jnt:folder">
                         <themes jcr:primaryType="jnt:folder">
-                            <default jcr:primaryType="jnt:folder">
-                                <Logo_DANTA_Original.png j:height="1000"
-                                              j:width="1000"
-                                              jcr:mixinTypes="jmix:image"
-                                              jcr:primaryType="jnt:file">
-                                    <jcr:content jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                                    <thumbnail jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                                    <thumbnail2 jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                                </Logo_DANTA_Original.png>
-                                <Logo_Danta_Original-350.png j:height="350"
-                                                  j:width="350"
-                                                  jcr:mixinTypes="jmix:image"
-                                                  jcr:primaryType="jnt:file">
-                                    <jcr:content jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                                    <thumbnail jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                                    <thumbnail2 jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                                </Logo_Danta_Original-350.png>
-                            </default>
+                            <default jcr:primaryType="jnt:folder"/>
                         </themes>
                     </files>
                     <contents jcr:primaryType="jnt:contentFolder"/>
@@ -65,7 +68,7 @@
                                 <header childrenListLink="/modules/JahiaDFDemo/home"
                              jcr:primaryType="dantademo:header"
                              projectName="Danta Demo Project"/>
-                                <content j:allowedTypes="" jcr:primaryType="jnt:area">
+                                <content jcr:primaryType="jnt:area">
                                     <content jcr:primaryType="jnt:contentList">
                                         <hero buttonLink="#"
                                  buttonText="We dare you"
@@ -73,7 +76,7 @@
                                  jcr:primaryType="dantademo:hero"
                                  subtitle="Development Empowered"
                                  title="Danta"/>
-                                        <content-section-home j:allowedTypes="" jcr:primaryType="jnt:area"/>
+                                        <content-section-home jcr:primaryType="jnt:area"/>
                                     </content>
                                 </content>
                                 <footer jcr:primaryType="dantademo:footer"
@@ -91,6 +94,6 @@
                               jcr:primaryType="jnt:translation"
                               jcr:title="Home"/>
                 </home>
-            </JahiaDFDemo>
+            </jahia-df-demo>
     </modules>
 </content>
