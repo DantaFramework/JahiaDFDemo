@@ -24,10 +24,10 @@
     <parent>
         <artifactId>jahia-modules</artifactId>
         <groupId>org.jahia.modules</groupId>
-        <version>7.1.1.0</version>
+        <version>7.2.0.0</version>
     </parent>
-    <groupId>Danta</groupId>
-    <artifactId>JahiaDFDemo</artifactId>
+    <groupId>io.tikaltechnologies.danta</groupId>
+    <artifactId>jahia-df-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
@@ -81,7 +81,7 @@
                 <configuration>
                     <instructions>
                         <Jahia-Module-Type>templatesSet</Jahia-Module-Type>
-                        <Jahia-Depends>default,JahiaDFContentDefinition,JahiaDF</Jahia-Depends>
+                        <Jahia-Depends>default,jahia-df-base,jahia-df</Jahia-Depends>
                         <Jahia-Module-Scripting-Views>danta</Jahia-Module-Scripting-Views>
                     </instructions>
                 </configuration>
@@ -150,19 +150,19 @@
 
     <dependencies>
         <dependency>
-            <groupId>Danta</groupId>
-            <artifactId>JahiaDF</artifactId>
+            <groupId>io.tikaltechnologies.danta</groupId>
+            <artifactId>jahia-df</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>Danta</groupId>
-            <artifactId>API</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <groupId>io.tikaltechnologies.danta</groupId>
+            <artifactId>api</artifactId>
+            <version>1.0.2-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>Danta</groupId>
-            <artifactId>Core</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <groupId>io.tikaltechnologies.danta</groupId>
+            <artifactId>core</artifactId>
+            <version>1.0.2-SNAPSHOT</version>
         </dependency>
 
         <dependency>
